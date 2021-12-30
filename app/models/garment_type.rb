@@ -1,5 +1,5 @@
 class GarmentType < ApplicationRecord
-  has_many :garments, dependant: :destroy
+  has_many :garments, dependent: :destroy
 
   validates :name, presence: true, uniqueness: true
 end
