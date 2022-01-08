@@ -7,6 +7,8 @@ gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'webpacker', '~> 5.0'
+gem 'httparty', '~> 0.20.0'
+gem 'geocoder', '~> 1.7'
 
 group :development, :test do
   gem 'pry-rails'

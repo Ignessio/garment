@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GarmentOnRails</title>
+    <title>GarmentsOnRails</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    <%= image_pack_tag 'wardrobe.png', size: '200x200', alt: 'Wardrobe' %>
     <%= yield %>
   </body>
 </html>
